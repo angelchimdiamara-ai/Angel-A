@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angel Amara's Kitchen</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b0b0b;color:#fff;font-family:Arial,sans-serif;line-height:1.6}
+:root{--gold:#d6ad60}
+header{padding:22px 6%;border-bottom:1px solid #4c3a1d;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{color:var(--gold);font-weight:bold;font-size:21px}
+nav a{color:white;text-decoration:none;margin:0 8px}
+.hero{padding:100px 7%;min-height:440px;background:linear-gradient(90deg,#080808ed,#08080877),url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1400&q=80') center/cover}
+.hero h1{font-size:clamp(38px,7vw,64px);line-height:1.1;margin:15px 0}
+.gold{color:var(--gold)}
+p{color:#ddd}
+.btn{display:inline-block;background:var(--gold);color:#111;text-decoration:none;font-weight:bold;padding:12px 18px;margin-top:15px;border-radius:4px}
+section{padding:60px 6%}
+.intro{text-align:center;margin:0 auto 32px;max-width:650px}
+h2{font-size:34px;margin:8px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#181512;border:1px solid #48371c;border-radius:8px;overflow:hidden}
+.card img{width:100%;height:180px;object-fit:cover;display:block}
+.card div{padding:17px}
+.card h3{color:var(--gold);margin:0}
+.about{background:#17130e}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
+.service{border-left:2px solid var(--gold);padding:15px;background:#211b12}
+.service h3{color:var(--gold)}
+.contact{background:#17130e}
+footer{text-align:center;padding:25px;border-top:1px solid #49391f;color:#aaa}
+.whatsapp{position:fixed;right:15px;bottom:15px;background:#25d366;color:#071b0c;text-decoration:none;font-weight:bold;padding:13px 17px;border-radius:28px}
+@media(max-width:600px){header{justify-content:center;text-align:center}nav{width:100%}.hero{padding-top:70px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">✦ ANGEL AMARA'S KITCHEN</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#menu">Menu</a>
+<a href="#catering">Catering</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<p class="gold">WELCOME TO OUR KITCHEN</p>
+<h1>Good Food.<br><span class="gold">Beautiful Moments.</span></h1>
+<p>Delicious meals, authentic Nigerian flavours and exceptional catering for your special occasions.</p>
+<a class="btn" href="#menu">EXPLORE OUR MENU</a>
+<a class="btn" href="https://wa.me/2348035483066">ORDER ON WHATSAPP</a>
+</section>
+
+<section id="menu">
+<div class="intro">
+<p class="gold">MADE WITH LOVE</p>
+<h2>Our <span class="gold">Delicious Menu</span></h2>
+<p>Discover our food offerings. Contact us for current prices and availability.</p>
+</div>
+<div class="cards">
+<article class="card">
+<img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=80" alt="Rice meal">
+<div><h3>Jollof Rice</h3><p>Rich, flavourful Nigerian jollof for every occasion.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80" alt="Fried rice">
+<div><h3>Fried Rice</h3><p>Delicious fried rice served with your choice of protein.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="Nigerian meal">
+<div><h3>Soups & Swallow</h3><p>Egusi, ogbono, okra and other Nigerian soup favourites.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80" alt="Grilled meat">
+<div><h3>Assorted Meat</h3><p>Tasty meat options to complement your favourite meals.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=700&q=80" alt="Grilled food">
+<div><h3>Grilled Chicken & Fish</h3><p>Grilled favourites for family meals and celebrations.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=700&q=80" alt="Shawarma">
+<div><h3>Shawarma</h3><p>A tasty treat for lunch, evenings and casual gatherings.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80" alt="Pizza">
+<div><h3>Pizza</h3><p>A crowd favourite for birthdays and family parties.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="Pepper soup">
+<div><h3>Pepper Soup</h3><p>A warming Nigerian favourite with bold, spicy flavours.</p></div>
+</article>
+</div>
+<p style="text-align:center;margin-top:25px">For menu details and prices, <a class="gold" href="https://wa.me/2348035483066">message us on WhatsApp</a>.</p>
+</section>
+
+<section class="about" id="catering">
+<div class="intro">
+<p class="gold">YOUR OCCASION, OUR PASSION</p>
+<h2>Catering for <span class="gold">Every Celebration</span></h2>
+<p>Let us help make your special occasions memorable with delicious food prepared with care.</p>
+</div>
+<div class="services">
+<div class="service"><h3>Weddings</h3><p>Food service for your special day.</p></div>
+<div class="service"><h3>Birthdays</h3><p>Make your celebration delicious.</p></div>
+<div class="service"><h3>Corporate Events</h3><p>Catering for meetings and gatherings.</p></div>
+<div class="service"><h3>Private Parties</h3><p>Delicious meals for your guests.</p></div>
+</div>
+<p style="text-align:center"><a class="btn" href="https://wa.me/2348035483066">BOOK OUR CATERING</a></p>
+</section>
+
+<section id="contact">
+<div class="intro">
+<p class="gold">WE WOULD LOVE TO HEAR FROM YOU</p>
+<h2>Contact <span class="gold">Our Kitchen</span></h2>
+<p>Ready to order or plan an event? Contact us today.</p>
+</div>
+<div style="text-align:center">
+<p><strong class="gold">Location</strong><br>Owerri, Imo State, Nigeria</p>
+<p><strong class="gold">WhatsApp / Phone</strong><br><a class="gold" href="https://wa.me/2348035483066">+234 803 548 3066</a></p>
+<a class="btn" href="https://wa.me/2348035483066?text=Hello%20Angel%20Amara's%20Kitchen%2C%20I%20would%20like%20to%20make%20an%20enquiry.">SEND US A MESSAGE</a>
+</div>
+</section>
+</main>
+<footer>
+<p>© 2026 Angel Amara's Kitchen. All rights reserved.</p>
+<p>Delicious food. Beautiful moments.</p>
+</footer>
+<a class="whatsapp" href="https://wa.me/2348035483066">WhatsApp Us</a>
+</body>
+  </html>
+  
